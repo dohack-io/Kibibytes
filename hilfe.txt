@@ -1,0 +1,14 @@
+//Bitte in Main integrieren
+
+//Anfrage der Location
+msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Your location, please")
+        btn := tgbotapi.KeyboardButton{
+            RequestLocation: true,
+            Text: "Send location",
+        }
+        msg.ReplyMarkup = tgbotapi.NewReplyKeyboard([]tgbotapi.KeyboardButton{btn})
+        bot.Send(msg)
+
+//Antwort wird update.Message.Location haben, worin Latitude und Longitude sind, die an die Funktion GetNearest aus dem //package rechargepoint übergeben werden, um einen maps link zur nächsten e-zapfsäule als string zurückgegeben wird
+
+// antwort := GetNearest(update.Message.Location.Latitude, update.Message.Location.Longitude)
