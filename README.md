@@ -33,6 +33,13 @@ Just kidding. We had lots of fun learning new stuff and exploring the possibilit
 We had basic knowledge of Java, C, C++ and C# were learned in the university but the focus lays on Java.  
 The trainee works in a company in the area of Web/App-Development and uses PHP/JS/HTML/CSS/C# most times.
 
+## Members
+https://github.com/T1m6
+https://github.com/flofeld
+https://github.com/fridtjof
+https://github.com/AleksandraVn
+https://github.com/dominikfladung
+
 ## What's next for your project?
 We would have liked to implement a system where it wouldn't be necessary to use commands.
 A system to filter the input as a form of interaction between the bot and the user, which lets the user
